@@ -1,0 +1,107 @@
+/*header*/
+*{
+    margin: 0;
+}
+header.padre{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+}
+nav{
+    color: #F3F3F3;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+
+}
+ul.lista li{
+    margin: auto 8px;
+}
+li.sinpunto{
+    list-style: none;
+}
+/*body*/
+*{
+    font-family: Roboto ;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+div.delivery{
+    background-image: url(../img/delivery.png);
+    background-size: cover;
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+}
+h2{
+    color: #FC200C;
+    font-size: 24px;
+    padding-top: 25px;
+}
+.delivery h2{
+    padding-left: 145px;
+    padding-top: 25px;
+}
+span{
+    color: #FFFFFF;
+}
+div.div2{
+    display: flex;
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+div.podio{
+    text-align: center;
+    margin: 16px 0px;
+    font-weight: 900;
+}
+div.top{
+    position: absolute;
+    top: 35%;
+    left: 57%;
+    font-weight: 900;
+}
+.top h3{
+    padding-left: 32px;
+    margin-bottom: 18px;
+}
+img.cosas{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+ol li{
+    margin: 5px;
+}
+/*footer*/
+.contenedor{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    height: 17vh;
+}
+ul.cross li{
+    margin: 10px auto;
+}
+img.logoinf{
+    flex-direction: row-reverse;
+}
